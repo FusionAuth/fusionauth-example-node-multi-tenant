@@ -2,8 +2,8 @@ const express = require('express');
 const router = express.Router();
 const {FusionAuthClient} = require('@fusionauth/typescript-client');
 
-const clientId = '85a03867-dccf-4882-adde-1a79aeec50df';
-const clientSecret = '7gh9U0O1wshsrVVvflccX-UL2zxxsYccjdw8_rOfsfE';
+const clientId = 'bbb2a29c-4a97-42e6-91af-789ecfceb33a';
+const clientSecret = 'XedSofEhbvYzVZNP59l69lJVTDo4jRHxemdkup4pZS4';
 const client = new FusionAuthClient('noapikeyneeded', 'http://localhost:9011');
 const hostName = 'piedpiper.local';
 const port = 3000;
